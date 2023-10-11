@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8" />
+  <title>SASS prática</title>
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+
+<body>
+  <section>
+    <header>
+      <h1>Tecnologias para Interfaces de Aplicações WEB</h1>
+    </header>
+    <article>
+      <ul>
+        <li class="jquery">
+          <h3>JQuery</h3>
+          <p>É uma bibliteca para simplificar a interação e manipulação do objeto DOM.</p>
+          <a href="#" title="JQuery">Saiba [+]</a>
+        </li>
+        <li class="flexbox">
+          <h3>Flexbox</h3>
+          <p>É uma abordagem de estilização CSS que facilita o posicionamento flexível de elementos HTML.</p>
+          <a href="#" title="Flexbox">Saiba [+]</a>
+        </li>
+        <li class="sass">
+          <h3>SASS</h3>
+          <p>É uma linguagem de estilização que é compilada para o CSS, o que permite utilizar variáveis, alinhamentos e outros características importantes para manutenção e produtividade na criação de estilos.</p>
+          <a href="#" title="JQuery">Saiba [+]</a>
+        </li>
+      </ul>
+    </article>
+    <footer>Aulas de TIAW - <span></span></footer>
+  </section>
+  <script>
+    //Pega o ano atual e inclui na tag span do elemento footer. 
+    document.querySelector("footer > span").innerHTML = new Date().getFullYear();
+  </script>
+</body>
+
+</html>
