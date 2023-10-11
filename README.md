@@ -1,2 +1,2 @@
-# sass_pratica
+# SASS_pratica
 Pratica de SASS
