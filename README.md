@@ -1,2 +1,2 @@
-# Primeira impressões de SASS 
+# Primeiras impressões de SASS 
 Usando o SASS pela primeira vez 
